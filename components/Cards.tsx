@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { Button } from './ui/button';
+import { Destination } from '@/constants/destinationTypes';
 
 interface CardProps {
   destinations: Destination[]; // Specify the type for the 'destinations' prop
