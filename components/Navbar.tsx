@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='relative z-20 py-5 px-8 lg:px-20 '>
+    <nav className=' bg-white z-20 py-5 px-8 lg:px-20 sticky top-0'>
       <div className="shadow-sm flex items-center justify-between">
         <Link href="/">
           <Image src={logo} width={194} height={24} alt='logo'/>

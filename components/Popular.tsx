@@ -19,7 +19,7 @@ const Popular = () => {
       : destinations.filter((destination) => destination.category === selectedCategory);
 
   return (
-    <section className='flex flex-col gap-8 '>
+    <section className='flex flex-col gap-8 mt-10 '>
       <div className="heading flex flex-col lg:flex-row gap-4 ">
         <div className="title ">
           <h2 className='bold-32 lg:bold-40 padding-container'>Popular Cities</h2>
@@ -42,7 +42,7 @@ const Popular = () => {
           </Button>
         </div>
       </div>
-      <div className="items-center justify-center flex padding-container">
+      <div className="items-center justify-center flex padding-container mt-10">
         <Cards destinations={filteredDestinations} /> {/* Pass the filtered destinations */}
       </div>
     </section>
